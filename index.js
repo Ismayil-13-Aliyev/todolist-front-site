@@ -7,7 +7,7 @@ let tasks = [];
 document.addEventListener("DOMContentLoaded", () => {
   clickMeBtn.addEventListener("click", () => {
     tasks.push(input.value);
-
+    
     const task = document.createElement("p");
     task.innerText = input.value;
     list.append(task);
